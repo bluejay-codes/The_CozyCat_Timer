@@ -13,6 +13,7 @@ h1{
     color: #3B71D6;
     font-weight: 500;
     font-size: 3em;
+    text-align: right;
 }
 
 label{
@@ -35,15 +36,23 @@ input{
 
 button{
     font-family: Gaegu, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.75em;
     border-radius: 1em;
     padding: 0.5em 0.75em;
     background-color:#F9C016;
     color:#302E2E;
+    margin-bottom: 0.5em;
 }
 
 button:hover {
     background-color: #DB5050;
     color:#F9C016;
-    
+}
+
+.controls button{
+    background-color:#D9E6FF;
+    border: 0;
+    padding: 0.5em 0.75em;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
 }

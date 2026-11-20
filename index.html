@@ -21,14 +21,31 @@
   <body>
     <!-- YOUR HTML GOES HERE -->
     <h1>The Cozy Cat Clock </h1>
-    <button type="Time">Select your Focus time</button>
+    <div class="Inputs">
+      <button type="Time">Select your Focus time</button>
 
-    <label for="task">What is your task?</label>
-		<input type="task" id="task">
+      <label for="task">What is your task?</label>
+		  <input type="task" id="task">
     
-    <label for="musicInput">Youtube URL</label>
-    <input type="music" id="musicInput">
+      <label for="musicInput">Youtube URL</label>
+      <input type="music" id="musicInput">
+    </div>
     
+   <audio id="player" src="audio.mp3"></audio>
+  
+  <div class="controls">
+    <button type="button" id="playPauseBtn" aria-label="Play" aria-pressed="false">
+       <img id="playPauseImg" src="images/PLAY.png" alt="Play">
+    </button>
+    
+    <button type="button" id="playPauseBtn" aria-label="Pause" aria-pressed="false">
+       <img id="playPauseImg" src="images/pause.png" alt="Pause">
+    </button>
+      <button type="button" id="repeatBtn" aria-label="Repeat" aria-pressed="false">
+        <img id="repeatImg" src="images/repeat.png" alt="Repeat">
+      </button>
+    </div>
+
     <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
   </body>
 </html>
