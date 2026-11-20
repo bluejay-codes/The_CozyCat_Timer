@@ -16,6 +16,17 @@ h1{
     text-align: right;
 }
 
+a {
+    background-color:#F9C016;
+    color:#302E2E;
+    border-radius: 1em;
+    padding: 0.5em 0.75em;
+    margin-bottom: 1.5em;
+    font-family: Gaegu, sans-serif;
+    font-size: 1.5em;
+}
+
+
 label{
     display: block;
     margin-bottom: 0.3rem;
@@ -46,7 +57,7 @@ button{
 
 button:hover {
     background-color: #DB5050;
-    color:#F9C016;
+    color:#302E2E;
 }
 
 .controls button{
