@@ -3,9 +3,47 @@
 /* ===== NEXT WRITE GLOBAL STYLES, THEN USE MEDIA QUERIES FOR LAYOUT/STYLE ADJUSTMENTS ===== */
 /* ===== STARTER CSS BELOW FOR body AND p IS JUST AN EXAMPLE... YOU MAY DELETE IT ===== */
 
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
 body {
-    background: magenta;
+    background: #D9E6FF;
 }
-p {
-    font-size: 2em;
+h1{
+    font-family: Gaegu, sans-serif;
+    color: #3B71D6;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-size: 2em; 
+    font-family: Gaegu, sans-serif;
+    color:#3B71D6;
+    cursor: pointer; 
+}
+
+input{
+    background-color: #302E2E;
+    color:#F9C016;
+    font-family: Gaegu, sans-serif;
+    border-radius: 1em;
+    padding: 0.5em 0.75em;
+    font-size: 1.25em;
+}
+
+button{
+    font-family: Gaegu, sans-serif;
+    font-size: 1.25em;
+    border-radius: 1em;
+    padding: 0.5em 0.75em;
+    background-color:#F9C016;
+    color:#302E2E;
+}
+
+button:hover {
+    background-color: #DB5050;
+    color:#F9C016;
+    
 }
