@@ -22,36 +22,40 @@
     <!-- YOUR HTML GOES HERE -->
     <h1>The Cozy Cat Clock </h1>
 
-    <div class="Time">
-      <a class="time-selection" href="timer.html">
-      <span class="title">Select your Focus Time</span>
-      </a>
-    </div>
+    <div class="container">
+      <img class="container_image" src="images/Dream 2.gif">
 
-    <div class="Inputs">
-      <label for="task">What is your task?</label>
-		  <input type="task" id="task">
-    
-      <label for="musicInput">Youtube URL</label>
-      <input type="music" id="musicInput">
-    </div>
-    
-   <audio id="player" src="audio.mp3"></audio>
-  
-  <div class="controls">
-    <button type="button" id="playPauseBtn" aria-label="Play" aria-pressed="false">
-       <img id="playPauseImg" src="images/PLAY.png" alt="Play">
-    </button>
-    
-    <button type="button" id="playPauseBtn" aria-label="Pause" aria-pressed="false">
-       <img id="playPauseImg" src="images/pause.png" alt="Pause">
-    </button>
-      <button type="button" id="repeatBtn" aria-label="Repeat" aria-pressed="false">
-        <img id="repeatImg" src="images/repeat.png" alt="Repeat">
-      </button>
-    </div>
+      <div class="options">
+        <div class="time">
+          <a class="time-selection" href="timer.html">
+            <span class="title">Select your Focus Time</span>
+          </a>
+        </div>
 
+        <div class="inputs">
+          <label for="task">What is your task?</label>
+          <input type="task" id="task">
 
+          <label for="musicInput">Youtube URL</label>
+          <input type="music" id="musicInput">
+        </div>
+
+        <audio id="player" src="audio.mp3"></audio>
+
+        <div class="controls">
+          <button type="button" id="playPauseBtn" aria-label="Play" aria-pressed="false">
+            <img id="playPauseImg" src="images/PLAY.png" alt="Play">
+          </button>
+
+          <button type="button" id="playPauseBtn" aria-label="Pause" aria-pressed="false">
+            <img id="playPauseImg" src="images/pause.png" alt="Pause">
+          </button>
+          <button type="button" id="repeatBtn" aria-label="Repeat" aria-pressed="false">
+            <img id="repeatImg" src="images/repeat.png" alt="Repeat">
+          </button>
+        </div>
+      </div>
+    </div>
 
     <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
   </body>
