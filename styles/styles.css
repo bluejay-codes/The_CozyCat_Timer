@@ -75,3 +75,7 @@ button:hover {
     gap: 1.5em;
 }
 
+.options {
+    display: inline-flex;
+    flex-direction: column;
+}
