@@ -12,20 +12,25 @@ h1{
     font-family: Gaegu, sans-serif;
     color: #3B71D6;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: right;
 }
 
 a {
-    background-color:#F9C016;
-    color:#302E2E;
+    background-color: #1163dd;
+    color:#D9E6FF;
     border-radius: 1em;
     padding: 0.5em 0.75em;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.5em;
     font-family: Gaegu, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
+a:hover {
+    background-color:#e9c351;
+    color:#302E2E;
+    text-decoration: underline;
+}
 
 label{
     display: block;
@@ -45,16 +50,15 @@ input{
     font-size: 1.25em;
 }
 
-button{
+button {
     font-family: Gaegu, sans-serif;
-    font-size: 1.75em;
+    font-size: 3em;
     border-radius: 1em;
     padding: 0.5em 0.75em;
-    background-color:#F9C016;
-    color:#302E2E;
-    margin-bottom: 0.5em;
+    background-color:#1163dd;
+    color:#D9E6FF;
 }
-
+     
 button:hover {
     background-color: #DB5050;
     color:#302E2E;
@@ -84,4 +88,21 @@ img{
     flex-direction: column;
 }
 
+.timer {
+    display: inline-flex;
+    gap: 1.2em;
 
+}
+
+#container {
+    max-width: 700px;    
+}
+
+#container h1{
+    text-align: center;
+}
+
+#container .timer{
+    max-width: 700px;
+    background-color:#e9c351;
+}
