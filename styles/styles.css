@@ -94,6 +94,14 @@ img{
     gap: 1.2em;
 }
 
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #container h1{
     text-align: center;
 }
