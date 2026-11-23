@@ -68,14 +68,20 @@ button:hover {
     margin-bottom: 0.5em;
 }
 
+img{
+    max-width: 60%;
+}
+
 .container {
     display: inline-flex;
-    width: 100%;
+    max-width: 100%;
     float: right;
-    gap: 1.5em;
+    gap: 2.5em;
 }
 
 .options {
     display: inline-flex;
     flex-direction: column;
 }
+
+
