@@ -28,7 +28,6 @@ a {
     color:#EAD5BC;
     border-radius: 1em;
     padding: 0.5em 0.75em;
-    margin-bottom: 2.5em;
     font-family: Gaegu, sans-serif;
     font-size: 2em;
     margin-bottom: 2em;
@@ -42,16 +41,29 @@ a:hover {
 
 label{
     display: block;
+    margin-top: 0.5em;
     margin-bottom: 0.3rem;
     font-size: 2em; 
     font-family: Gaegu, sans-serif;
-    color:#3B71D6;
+    color:#1A2A3A;
     cursor: pointer; 
 }
 
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+    margin-top: 1.5em;
+}
+
+.input-row label {
+    margin: 0;
+    white-space: nowrap;
+}
+
 input{
-    background-color: #302E2E;
-    color:#F9C016;
+    background-color:#C95612;
+    color:#EAD5BC;
     font-family: Gaegu, sans-serif;
     border-radius: 1em;
     padding: 0.5em 0.75em;
@@ -73,11 +85,12 @@ button:hover {
 }
 
 .controls button{
-    background-color:#D9E6FF;
+    background-color:#1A2A3A; 
     border: 0;
-    padding: 0.5em 0.75em;
+    padding: 0.25em;
     margin-top: 0.25em;
-    margin-bottom: 0.5em;
+    width: 1.75em;
+    height: 1.75em;
 }
 
 img{
