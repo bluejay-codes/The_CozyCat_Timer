@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem;
 }
 h1{
     font-family: Gaegu, sans-serif;
@@ -105,6 +106,24 @@ img{
     max-width: 60%;
 }
 
+.progress-container{
+    width: 60%;
+    height: 12px;
+    background-color:#3c0d09;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    margin-top: 1.25rem;
+    align-items: center;
+}
+
+.progress-bar {
+    height:100%;
+    width: 0%;
+    background-color:#C95612;
+    transition: width 0.3s ease;
+}
+
 .container {
     display: inline-flex;
     max-width: 100%;
@@ -122,6 +141,17 @@ img{
     display: grid;
     width: 400px;
     gap: 1.2em;
+}
+
+.timer button.active {
+    background-color:#3c0d09;
+}
+
+.timer-display {
+    margin-bottom: 0.5em;
+    font-family: Gaegu, sans-serif;
+    font-size: 4em;
+    color:#1A2A3A;
 }
 
 #container {

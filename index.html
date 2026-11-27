@@ -35,35 +35,35 @@
           <div class="input-row">
             <label for="task">What is your task?</label>
             <input type="text" id="task">
-            		<button type="submit" id="submit-btn">Submit</button>
-            <script sec="./script.js"></script>
+            <button type="button" id="submit-btn">Submit</button>
           </div>
 
           <div class="input-row">
             <label for="musicInput">Youtube URL</label>
             <input type="text" id="musicInput">
-            		<button type="submit" id="submit-btn">Submit</button>
-
           </div>
         </div>
 
         <audio id="player" src="audio.mp3"></audio>
 
         <div class="controls">
-          <button type="button" id="playPauseBtn" aria-label="Play" aria-pressed="false">
-            <img id="playPauseImg" src="images/PLAY.png" alt="Play">
+          <button type="button" id="playBtn" aria-label="Play" aria-pressed="false">
+            <img id="playImg" src="images/PLAY.png" alt="Play">
           </button>
 
-          <button type="button" id="playPauseBtn" aria-label="Pause" aria-pressed="false">
-            <img id="playPauseImg" src="images/pause.png" alt="Pause">
+          <button type="button" id="PauseBtn" aria-label="Pause" aria-pressed="false">
+            <img id="PauseImg" src="images/pause.png" alt="Pause">
           </button>
-          <button type="button" id="repeatBtn" aria-label="Repeat" aria-pressed="false">
-            <img id="repeatImg" src="images/repeat.png" alt="Repeat">
+          <button type="button" id="resetBtn" aria-label="Reset" aria-pressed="false">
+            <img id="resetImg" src="images/repeat.png" alt="Reset">
           </button>
         </div>
       </div>
     </div>
 
+    <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+    </div>
     <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
   </body>
 </html>
