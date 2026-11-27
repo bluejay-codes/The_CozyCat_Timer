@@ -57,6 +57,10 @@ label{
     margin-top: 1.5em;
 }
 
+.inputs .input-row:first-child {
+    margin-top: 0.25em;
+}
+
 .input-row label {
     margin: 0;
     white-space: nowrap;
@@ -135,12 +139,26 @@ img{
 .options {
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1.25em; 
+    margin-top: 1.5em;
 }
 
 .timer {
     display: grid;
     width: 400px;
-    gap: 1.2em;
+    gap: 2em;
 }
 
 .timer button.active {
@@ -148,7 +166,9 @@ img{
 }
 
 .timer-display {
-    margin-bottom: 0.15em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
     font-family: Gaegu, sans-serif;
     font-size: 3.5em;
     color:#C95612;
