@@ -61,6 +61,12 @@ label{
     white-space: nowrap;
 }
 
+.input-row button{
+    font-size: 1.5em;
+    background-color:#C95612;
+    color:#e8a94c;
+}
+
 input{
     background-color:#C95612;
     color:#EAD5BC;
@@ -75,22 +81,24 @@ button {
     font-size: 3em;
     border-radius: 1em;
     padding: 0.5em 0.75em;
-    background-color:#1163dd;
-    color:#D9E6FF;
+    background-color:#C95612;
+    color:#EAD5BC;
 }
      
 button:hover {
-    background-color: #DB5050;
-    color:#302E2E;
+    background-color:#3c0d09;
+    color:#EAD5BC;
 }
 
 .controls button{
-    background-color:#1A2A3A; 
-    border: 0;
+    background-color:#3c0d09;
     padding: 0.25em;
     margin-top: 0.25em;
     width: 1.75em;
     height: 1.75em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img{
